@@ -1,0 +1,100 @@
+.background
+{
+    background-color: black;
+    border-radius: 20px;
+    width: 700px;
+    align-items: center;
+}
+.topic
+{
+    text-align:center;
+    color: azure;
+}
+ .centeredContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  .addbtn
+  {
+    color: black;
+  }
+  .centeredContainer-1
+  {
+    border-radius: 10%;
+  }
+  /* .updbtn
+  {
+    margin-left: 10%;
+    margin-top: -8%;
+  } */
+  .btn {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 1px solid lighten(gray, 24%);
+    height: 48px;
+    padding: 0 24px 0 16px;
+    letter-spacing: .25px;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-top: -12%;
+    margin-left: 1%;
+    &:focus {
+      outline:violet;
+    }
+    
+    .mdi {
+      margin-right: 8px;
+    }
+  }
+  
+  .btn-delete {
+    font-size: 16px;
+    color: red;
+    
+    >.mdi-delete-empty {
+      display: none;
+    }
+    
+  }
+  .btn-update {
+    font-size: 16px;
+    color: rgb(18, 48, 181);
+    
+    >.mdi-delete-empty {
+      display: none;
+    }
+    
+  }
+
+  .btn-add {
+    font-size: 16px;
+    color: rgb(72, 181, 18);
+    
+    >.mdi-delete-empty {
+      display: none;
+    }
+    margin-top: 0%;
+    margin-left: 2%;
+  }
+
+  .tex 
+  {
+    margin-top: 2%;
+    margin-left: 40%;
+  }
+
+  .btnset
+  {
+    margin-left: 30%;
+    margin-top: -2%;
+
+  }
+  .input-note
+  {
+    margin-top: 10;
+    margin-left: 11%;
+    height: 1cm;
+  }
+  
